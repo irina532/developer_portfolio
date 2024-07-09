@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.font{
+    font-family: open sans;
+    
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.span-design{
+   color: #FD6E0A; 
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+}
+dark-2{
+    color: #474747;
+}
+nav ul{
+    display:flex ;
+    align-items: center;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    border: none;
+    
+    color: white;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.banner-greetings{
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+}
+.profile-pic{
+    width: 534.12px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 115px;
+}
+.banner-content{
+    max-width: 638px;
+}
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
